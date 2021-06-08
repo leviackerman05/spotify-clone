@@ -1,4 +1,4 @@
-import { Navbar } from "../Components";
+import { Navbar , Footer } from "../Components";
 export const LandingPage = () => {
   return (
     <div>
@@ -12,6 +12,7 @@ export const LandingPage = () => {
         <h1 style = {{ fontFamily : "Helvatica,Arial,sans-serif" , color : "#1ED760" }} className = "ml-72 text-green-500 text-9xl font-extrabold">everything</h1>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
